@@ -5,6 +5,13 @@
   "item.mccourse.onion": "Onion",
   "item.mccourse.aurora_ashes": "Aurora Ashes",
 
+  "item.mccourse.azurite_sword": "Azurite Sword",
+  "item.mccourse.azurite_pickaxe": "Azurite Pickaxe",
+  "item.mccourse.azurite_shovel": "Azurite Shovel",
+  "item.mccourse.azurite_axe": "Azurite Axe",
+  "item.mccourse.azurite_hoe": "Azurite Hoe",
+
+
   "block.mccourse.azurite_block": "Block of Azurite",
 
   "block.mccourse.azurite_ore": "Azurite Ore",
