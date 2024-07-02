@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.item;
 import net.kaupenjoe.mccourse.MCCourseMod;
 import net.kaupenjoe.mccourse.item.custom.ChainsawItem;
 import net.kaupenjoe.mccourse.item.custom.FuelItem;
+import net.kaupenjoe.mccourse.item.custom.HammerItem;
 import net.kaupenjoe.mccourse.item.custom.PaxelItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -54,6 +55,9 @@ public class ModItems {
     public static final RegistryObject<Item> AZURITE_PAXEL = ITEMS.register("azurite_paxel",
             () -> new PaxelItem(ModToolTiers.AZURITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.AZURITE, 2.0F, -2.5F))));
+    public static final RegistryObject<Item> AZURITE_HAMMER = ITEMS.register("azurite_hammer",
+            () -> new HammerItem(ModToolTiers.AZURITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.AZURITE, 7.0F, -3.5F))));
 
 
 
