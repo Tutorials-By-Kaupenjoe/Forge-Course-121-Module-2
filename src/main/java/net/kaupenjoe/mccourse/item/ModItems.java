@@ -1,11 +1,9 @@
 package net.kaupenjoe.mccourse.item;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
-import net.kaupenjoe.mccourse.item.custom.ChainsawItem;
-import net.kaupenjoe.mccourse.item.custom.FuelItem;
-import net.kaupenjoe.mccourse.item.custom.HammerItem;
-import net.kaupenjoe.mccourse.item.custom.PaxelItem;
+import net.kaupenjoe.mccourse.item.custom.*;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -37,8 +35,8 @@ public class ModItems {
             () -> new FuelItem(new Item.Properties(), 800));
 
     public static final RegistryObject<Item> AZURITE_SWORD = ITEMS.register("azurite_sword",
-            () -> new SwordItem(ModToolTiers.AZURITE, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.AZURITE, 5, 3f))));
+            () -> new ModEffectSwordItem(ModToolTiers.AZURITE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.AZURITE, 5, 3f)), MobEffects.LEVITATION));
     public static final RegistryObject<Item> AZURITE_PICKAXE = ITEMS.register("azurite_pickaxe",
             () -> new PickaxeItem(ModToolTiers.AZURITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.AZURITE, 1.0F, -2.8F))));
