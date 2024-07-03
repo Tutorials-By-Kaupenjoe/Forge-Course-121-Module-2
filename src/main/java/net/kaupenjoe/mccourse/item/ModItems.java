@@ -58,7 +58,7 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.AZURITE, 7.0F, -3.5F))));
 
     public static final RegistryObject<Item> AZURITE_HELMET = ITEMS.register("azurite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.AZURITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.AZURITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11))));
     public static final RegistryObject<Item> AZURITE_CHESTPLATE = ITEMS.register("azurite_chestplate",
             () -> new ArmorItem(ModArmorMaterials.AZURITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
