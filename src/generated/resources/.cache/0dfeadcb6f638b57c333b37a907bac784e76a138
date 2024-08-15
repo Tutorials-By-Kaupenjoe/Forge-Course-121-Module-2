@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-15T17:58:19.1571706	Item Models: mccourse
+// 1.21.1	2024-08-15T18:12:05.6842083	Item Models: mccourse
 1ce777d01800de4f89188a30f319cab2b5fbf262 assets/mccourse/models/item/aurora_ashes.json
 df3ca36915ce05a651f008eaa893eb1327e22921 assets/mccourse/models/item/azurite.json
 06611df5b83d02b594ebc5c659f09f8732478f45 assets/mccourse/models/item/azurite_axe.json
@@ -40,6 +40,7 @@ f32e53256a97df5f3e09889e200051a600dba69e assets/mccourse/models/item/azurite_hel
 9daf125d8dc3165a96c13920b113ec475b2310ce assets/mccourse/models/item/azurite_helmet_quartz_trim.json
 577b222882bf0097923ec2ebb5768e80556654fa assets/mccourse/models/item/azurite_helmet_redstone_trim.json
 1753ab6ea6e3a18ddfd677d09637ce5f14fe3cf6 assets/mccourse/models/item/azurite_hoe.json
+5019002f1676c850d3928357d919baff86cd3456 assets/mccourse/models/item/azurite_horse_armor.json
 5dad41068ee3504b39d4c4413e39a530f6490288 assets/mccourse/models/item/azurite_leggings.json
 4452e319e64da848d4919617d0afa920f60395fa assets/mccourse/models/item/azurite_leggings_amethyst_trim.json
 66b7978e5dc559bf37b9c1f203596bb51d539db5 assets/mccourse/models/item/azurite_leggings_copper_trim.json
